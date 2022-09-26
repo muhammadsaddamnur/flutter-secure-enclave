@@ -1,23 +1,19 @@
 enum AccessControlOption {
-  devicePasscode("devicePasscode"),
+  devicePasscode,
 
-  biometryAny("biometryAny"),
+  biometryAny,
 
-  biometryCurrentSet("biometryCurrentSet"),
+  biometryCurrentSet,
 
-  userPresence("userPresence"),
+  userPresence,
 
-  watch("watch"),
+  watch,
 
-  privateKeyUsage("privateKeyUsage"),
+  privateKeyUsage,
 
-  applicationPassword("applicationPassword"),
+  applicationPassword,
 
-  or("or"),
+  or,
 
-  and("and");
-
-  final String des;
-
-  const AccessControlOption(this.des);
+  and
 }
